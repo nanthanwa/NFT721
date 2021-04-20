@@ -11,7 +11,7 @@
     "migrate": "truffle migrate --network development --reset",
     "compile": "truffle compile --network development",
     "test": "rm -rf contracts/flattened/*.sol && truffle test",
-    "flatten": "truffle-flattener contracts/ThaiLottery.sol > flattened/ThaiLottery.sol"
+    "flatten": "truffle-flattener contracts/ERC721PresetMinterPauserAutoId.sol > flattened/ERC721PresetMinterPauserAutoId.sol"
   },
   "repository": {
     "type": "git",
