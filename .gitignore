@@ -1,0 +1,5 @@
+node_modules
+.secret
+.DS_Store
+build/contracts/*
+!build/contracts/ERC721PresetMinterPauserAutoId.json
