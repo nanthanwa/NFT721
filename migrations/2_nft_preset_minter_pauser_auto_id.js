@@ -2,5 +2,5 @@ const ERC721PresetMinterPauserAutoId = artifacts.require("ERC721PresetMinterPaus
 
 module.exports = function (deployer, network, addresses) {
   const [admin] = addresses;
-  deployer.deploy(ERC721PresetMinterPauserAutoId, "My NFT", "NFT", "http://my-json-server.typicode.com/huangsuyu/nft/tokens", { from: admin });
+  deployer.deploy(ERC721PresetMinterPauserAutoId, "KillSwitch NFT Token V1", "KST", "https://killswitch.finance/merchandise/nft/tokens", { from: admin });
 };
